@@ -64,6 +64,7 @@ table {
   width: 400px;
   transform: translateX(-200px) translateY(-200px);
   transition: transform 300ms;
+  z-index: 5;
 }
 .pie-color:hover {
   opacity: 0.85;
@@ -129,6 +130,7 @@ table {
   position: absolute;
   top: -100px;
   width: 200px;
+  z-index: 5;
 }
 .hamburger {
   cursor: pointer;
@@ -235,6 +237,7 @@ body::-webkit-scrollbar {
   width: 40%;
     border-left: 4px solid #FF9F39;
     margin: 0 2rem;
+    margin-top: 5rem;
     margin-left: 8rem;
 }
 .hero_heading {
