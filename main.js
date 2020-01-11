@@ -79,7 +79,7 @@ function Particle(x, y, dx, dy, r, ttl) {
     this.opacity -= 1 / (ttl / 0.1)
     this.r -= r / (ttl / 0.1)
 
-    if (this.r < 0) this.r = 0 // Thank you Akash for the conditional!
+    if (this.r < 0) this.r = 0 
 
     this.timeToLive -= 0.1
 }
@@ -131,6 +131,8 @@ function animate() {
 
   for (var i = 0; i < explosions.length; i++) {
     explosions[i].draw();
+    
+
   }
 }
 animate();
