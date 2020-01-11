@@ -200,6 +200,8 @@ table {
 ==================================== */
 
 body {
+  /* position: relative; */
+  /* z-index: 2; */
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #ECEFF1;
 }
@@ -214,6 +216,8 @@ body::-webkit-scrollbar {
 ==================================== */
 
 .hero_header {
+    position: relative;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
