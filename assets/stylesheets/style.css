@@ -228,6 +228,7 @@ body::-webkit-scrollbar {
 
 
 .hero_heading_container {
+  width: 40%;
     border-left: 4px solid #FF9F39;
     margin: 0 2rem;
     margin-left: 8rem;
@@ -239,6 +240,7 @@ body::-webkit-scrollbar {
     color: #33333D;
 }
 .search {
+  /* width: 40%; */
     margin-right: 8rem;
     
 }
@@ -379,3 +381,16 @@ li {
     padding: 1rem;
 }
 
+
+
+
+
+
+/* ====================================
+    canvas
+==================================== */
+
+canvas {
+  position: absolute;
+  z-index: 1;
+}
