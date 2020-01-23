@@ -477,6 +477,14 @@ canvas {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
+  .darkLight {
+    transition-duration: 1s;
+    border: 1px solid white;
+    padding: 0.1rem;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+  }
   .hero_header {
     display: block;
   }
@@ -500,11 +508,11 @@ canvas {
   }
 
   .searchButton {
-    display: block;
+    display: none;
   }
 
   .category {
-    width: 45%;
+    width: 65%;
   }
 
   .container {
@@ -518,7 +526,14 @@ canvas {
   .menu {
     display: none;
   }
-
+  .darkLight {
+    transition-duration: 1s;
+    border: 1px solid white;
+    padding: 0.1rem;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+  }
   .search {
     margin-right: 0;
     margin: auto;
@@ -533,7 +548,7 @@ canvas {
   }
 
   .searchButton {
-    display: block;
+    display: none;
     width: 90%;
   }
 
@@ -562,6 +577,8 @@ canvas {
   border-radius: 50%;
   background-color: #f5f5f5;
   font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 /* ====================================
